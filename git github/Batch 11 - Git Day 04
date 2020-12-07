@@ -1,0 +1,22 @@
+Batch 11 - Git Day 04
+---------------------
+git branch   :  halihazırdaki tüm branchleri ve şuan üzerinde bulunduğumuz branchi görebiliyoruz.
+git branch dalIsmi : bu şekilde yeni bir dal oluşturabiliyoruz.
+git checkout dalIsmi : bu şekilde istediğimiz dala geçebiliyoruz.
+git push --set-upstream origin dalIsmi : bu şekilde -sadece 1 kere- oluşturduğumuz dalı github.com'a gönderiyoruz.
+git merge dalIsmi : dalIsmi branchini, üzerinde bulunduğumuz dal ile birleştiriyorduk.
+*** herhangi bir dal üzerinde yeni bir dal oluşturursak, üzerinde bulunduğumuz dalın o kısma kadarki kodlarını kullanabiliyoruz.
+master                   hamza
+Commit - 18 Nisan        burada yeni bir branch
+Commit - 20 Nisan        merge yapmak lazım (eğer istersek)
+--------------------------- DERS NOTLARI ----------------------------
+Settings/Manage access : "Collaborator"  ekleyerek projede çalışabilecek, github.com'daki projeyi değiştirebilecek kişilere izin verilir.
+Şirketlerde ortak çalışma nasıl oluyor ?
+* Localde bir   MASTER ve FEATURE branchleri oluyor..
+* Github'da da  MASTER ve FEATURE branchleri oluyor..
+* Biz hiçbir zaman MASTER branche kod eklemeyiz. Biz kodlarımızı FEATURE branche yazarız ve onu github.com'a göndeririz.
+* Team Lead, github.com'da karşılaştırma işlemi yapar. Eğer bizim kodlarımızı uygun görürse MERGE yapar ve MASTER branch ile birleştirir. Eğer uygun görmezse, bizden değişiklik yapmamızı ister, biz de değişiklik yapar ve daha sonra tekrar göndeririz..
+* MASTER güncellendikten sonra, Team Lead herkese MASTER branchlerini GÜNCELLEMELERİ GEREKTİĞİNİ söyler, herkes günceller ve kodlarını yazmaya devam eder..
+git status   :  herhangi bir yerde çalıştırabilirz. Yaptığımız değişikliklerin, şuanda yapılması gerekenlerin vs. durumunu bize gösteriyor.
+git reset --hard origin/master  : localinizdeki herşeyi siler. ve github.com'daki güncel hali direk getirir projenize yapıştırır. bir nevi gözü karartma hali..
+.gitignore  : bu dosyanın içerisine, github.com'a göndermek İSTEMEDİĞİMİZ dosyaların ve klasörlerin isimlerini yazıyoruz.

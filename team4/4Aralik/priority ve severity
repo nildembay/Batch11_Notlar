@@ -1,0 +1,40 @@
+Priority ve severity arasindaki fark nedir?
+Yazılım testinin kusurlarında iki önemli nokta vardır . Onlar:
+1) Önem
+2) Öncelik
+Önem ve Öncelik arasındaki fark nedir?
+1) Önem :
+Kusurun yazılımı ne ölçüde etkileyebileceğidir. Başka bir deyişle, belirli bir kusurun sistem üzerindeki etkisini tanımlar. Örneğin: Bir uzak bağlantıya tıklandığında bir uygulama veya web sayfası kilitleniyorsa, bu durumda bir kullanıcı tarafından uzak bağlantıya tıklanması nadirdir, ancak uygulamanın çökmesinin etkisi ciddi boyuttadır. Yani ciddiyet yüksek ama öncelik düşük.
+Önem derecesi aşağıdaki türlerde olabilir:
+Kritik: Tüm sistemin veya sistemin bir veya daha fazla bileşeninin sonlandırılmasına neden olan ve verilerin kapsamlı şekilde bozulmasına neden olan kusur. Başarısız olan işlev kullanılamaz ve gerekli sonuçları elde etmek için kabul edilebilir bir alternatif yöntem olmadığında ciddiyet kritik olarak belirtilecektir.
+Büyük: Tüm sistemin veya sistemin bir veya daha fazla bileşeninin sonlandırılmasına neden olan ve verilerin kapsamlı şekilde bozulmasına neden olan kusur. Başarısız olan işlev kullanılamaz, ancak gerekli sonuçları elde etmek için kabul edilebilir bir alternatif yöntem mevcutsa, önem derecesi majör olarak belirtilecektir.
+Orta: Sonlandırmaya yol açmayan ancak sistemin yanlış, eksik veya tutarsız sonuçlar üretmesine neden olan kusur, ardından ciddiyet orta olarak belirtilecektir.
+Minör: Sonlandırmaya neden olmayan ve sistemin kullanılabilirliğine zarar vermeyen kusur ve kusurlar etrafında çalışılarak istenilen sonuçlar kolaylıkla elde edilebilir, ardından ciddiyeti önemsiz olarak belirtilir.
+Kozmetik: Değişikliklerin uygulamanın görünümü ve alanı ile ilgili olduğu sistemin iyileştirilmesi ile ilgili kusur, ardından ciddiyet kozmetik olarak belirtilir.
+2) Öncelik :
+Öncelik, bir kusuru çözmemiz gereken sırayı tanımlar. Şimdi düzeltmeli miyiz yoksa bekleyebilir mi? Bu öncelik durumu, test eden tarafından geliştiriciye kusurun düzeltilmesi için zaman çerçevesinden bahsederek belirlenir. Yüksek öncelik belirtilmişse, geliştiricinin bunu en erken düzeltmesi gerekir. Öncelik durumu, müşteri gereksinimlerine göre belirlenir. Örneğin: Şirket adı web sitesinin ana sayfasında yanlış yazılmışsa, öncelik yüksek ve düzeltmenin önemi düşüktür.
+Öncelik, aşağıdaki türlerde olabilir:
+Düşük: Kusur, onarılması gereken tahriş edicidir, ancak daha ciddi kusur düzeltilene kadar onarım ertelenebilir.
+Orta: Kusur, normal geliştirme faaliyetleri sırasında çözülmelidir. Yeni bir yapı veya sürüm oluşturulana kadar bekleyebilir.
+Yüksek: Kusur, uygulamayı veya ürünü ciddi şekilde etkilediği için mümkün olan en kısa sürede çözülmelidir. Onarım yapılana kadar sistem kullanılamaz.
+ÖNEM   ÖNCELİK
+Önem derecesi, belirli bir kusurun yazılım üzerindeki etkisini gösteren bir parametredir.  
+Öncelik, kusurların düzeltilmesi gereken sıraya karar veren bir parametredir.
+Önem derecesi, kusurun işlevselliği ne kadar etkilediği anlamına gelir.
+Öncelik, kusurun ne kadar hızlı düzeltilmesi gerektiği anlamına gelir.
+Önem, kalite standardıyla ilgilidir.  
+Öncelik, sorunu çözmek için planlama yapmakla ilgilidir.
+Test mühendisi, kusurun ciddiyet düzeyine karar verir.    
+Ürün yöneticisi, kusurların önceliklerine karar verir.
+Değeri objektiftir.
+Değeri özneldir.
+Zaman zaman değeri değişmez. 
+Zaman zaman değeri değişir.
+TAKIMINIZDAKI ROL VE SORUMLULUKLARINIZ NELERDIR 
+Takimda SDET olarak gorev yapmaktayim.Test surecinin tamamini gerceklestirebiliyorum.Gereksinim analizlerini yapip test plani olusturduktan sonra,test case gelistirme ,test ortami testi ve testi baslatma ve bitirme surecine dahil oluyorum.
+EK BILGI
+Görüşme sırasında sorulan, ciddiyet ve öncelik ile ilgili birkaç çok önemli senaryo:
+Yüksek Öncelik ve Yüksek Önem : Uygulamanın temel işlevlerinde ortaya çıkan ve kullanıcının sistemi kullanmasına izin vermeyen bir hata. (Örneğin, öğrenci ayrıntılarını tutan bir site kaydı kaydetme durumunda, kaydı kaydetmeye izin vermiyorsa bu yüksek öncelikli ve yüksek önem dereceli bir hatadır.)
+Yüksek Öncelikli ve Düşük Önem: Bir uygulamanın kapak sayfasında veya başlığında veya başlığında meydana gelen yazım hataları.
+Yüksek Önem ve Düşük Öncelik: Uygulamanın işlevselliğinde ortaya çıkan (bunun için geçici bir çözüm bulunmayan) ve kullanıcının sistemi kullanmasına izin vermeyen, ancak son kullanıcı tarafından nadiren kullanılan bağlantı tıklandığında oluşan bir hata.
+Düşük Öncelikli ve Düşük Önem: Bir paragrafta veya raporda bulunan herhangi bir kozmetik veya yazım sorunu (Kapak sayfasında, başlıkta, başlıkta değil).

@@ -1,0 +1,13 @@
+Testerlar, Developerlar user storyleri takip ederek application i olustururken ne yaparlar?
+1= Requirementlar once guzel bir sekilde analiz edilir.
+2= Eger varsa Developerlardan uzerinde calistiklari data set (veriler) alinir ve guncellenir.
+3= Test case olusturulur.
+Jira da kac issue types vardi?
+4 tane
+Jira Xray ile kac tane daha eklendi?
+7 ozellik daha eklenmis oldu
+Environment => link 
+QA environment => farkli bir link == farkli bir veri bankasi 
+Dev environment => farkli bir link == farkli bir veri bankasi 
+Stage environment => farkli bir link == farkli bir veri bankasi 
+Prod environment => farkli bir link == farkli bir veri bankasi 

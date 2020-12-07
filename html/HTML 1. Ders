@@ -1,0 +1,42 @@
+HTML 1. Ders
+Bir HTML sayfasının dosya tipi(dosya uzantısı) ".html"dir.
+HTML bir programa dili DEĞİLDİR. Biçimlendirme dilidir..
+<button class="giris-yap">Giriş Yap</button>
+button    			:  tag ismi
+class="giris-yap"   :  attribute
+<div id="memleket">Erzurum</div>
+div  				:  tag ismi
+id="memleket"		:  attribute
+<a id="memleket" class="huzur">İstanbul</a>
+a  					:  tag ismi
+id="memleket" 
+class="huzur"		:  attribute
+----------------------------- HTML TAGLAR -------------------------
+***** HTML'de açılan tagın kapanması zorunluluğu var. Ancak bazı tagların kapanmasına gerek yoktur.
+	<html>    : açma   tagı
+	</html>	  : kapama tagı
+<html>		:  her sayfanın İLK TAGıdır.
+			   html tagının içerisinde 2 tane tag vardır. birisi HEAD tagı, diğeri BODY tagı.	
+<head> tagı ve <body> tagı, <html> tagının çocuklarıdır.(CHILD)
+<html> tagı, <head> tagı ve <body> tagının ebeveynidir.(PARENT)
+<h1>  En büyük puntolu yazı..
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>  En küçük puntolu yazı..
+<table>  : tablo oluşturmak için kullanılır.
+<thead>  : tablonun başlıklarının bulunduğu bölüm
+<tbody>  : tablonun satırlarının bulunduğu bölüm
+<tr>     : tablonun satırlarının bulunduğu bölüm.
+<td> ve <th> : içerisine veri eklediğimiz bölüm.
+<p>      : içerisine yazı yazabiliyoruz, paragraf gibi görünüyor.
+<u>      : altı çizgili hale getiriyor.
+<b> ya da <strong> : yazıyı kalın hale getiriyor.
+<i> ya da <em>     : yazıyı eğik(italik) hale getiriyor.
+<ul>     : sayısız bir sıralama yapar.   
+<ol>	 : sayılı (1,2,3 gibi) bir sıralama yapar.
+<li>	 : ul ve ol ile birlikte kullanırız..
+<hr>     : sayfayı kaplayan bir çizgi çekiyoruz..
+<div>
+<span>

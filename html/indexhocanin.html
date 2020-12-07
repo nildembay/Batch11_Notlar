@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+	<!-- Head tagı sayfayla alakalı bilgilerin
+		 ve çalıştırılmak istenen kodların eklendiği bölümdür           -->    
+    <head>
+    	<meta charset="utf-8">
+    	<title>Futbolcu Tanıtımı</title>
+    	<style type="text/css">
+    		/* sayfadaki body tagını bul */
+    		body {
+    			background-color : bisque;
+    		}
+    		/* sayfadaki h1'i bul*/
+    		h1 {
+    			background-color : yellow;
+    			color : red;
+    		}
+    		/* class
+			   aciklama class'ına sahip tüm elementleri bul		
+    		*/
+    		.aciklama {
+    			background-color: tan;
+    		}
+    		.liste {
+    			background-color: white;
+    		}
+    		#mavi-renk{
+    			color: blue;
+    		}
+    		.profil-resmi {
+    			border-radius: 50%;
+    		}
+    	</style>
+    </head>
+    <!-- Sayfanın tasarımının yapıldığı, kullanıcının görmüş olduğu 	  elementlerin kodlandığı bölümdür. -->
+    <body>	
+    	<a href="https://google.com">
+    		<img class="profil-resmi" src="C:\Users\isimsiz\Desktop\resim\sabri.jpg">
+    	</a>
+    	<h1>Sabri Sarıoğlu</h1>
+  		<h3 class="aciklama">Uzun yıllar Türk Milli Takım'ına hizmet etmiş, Galatasaray'ın efsane futbolcusu.</h3>
+  		<span>
+  			Instagram : <a href="http://instagram.com">SabriSarioglu</a>
+  			<br>Facebook  : <a href="http://facebook.com">SabriS</a>
+  			<br>Twitter   : <a href="http://twitter.com">Sarioglu</a>
+  		</span>
+  		<hr>
+  		<div class="liste">
+  			<ul>
+	  			<li>Galatasaray</li>
+	  			<li id="mavi-renk">Göztepe</li>
+	  			<li>A Milli Takım</li>
+	  		</ul>
+	  		<ol>
+	  			<li>Sağ Bek</li>
+	  			<li>Hırslı</li>
+	  			<li>İyi bir insan</li>
+	  		</ol>
+  		</div>
+  		<hr>
+  		<p class="aciklama">
+  			Sabri Sarıoğlu, altyapısından çıktığı 
+  			<strong>Galatasaray</strong> Spor Kulübüne yaklaşık 20 yıl hizmet etmiştir. Bu sürede yüzlerce kez milli takım forması giymiş olup, kariyerini Göztepe'de noktalamıştır.
+  			Sabri Sarıoğlu, altyapısından çıktığı Galatasaray Spor Kulübüne yaklaşık <i>20 yıl</i> hizmet etmiştir. Bu sürede yüzlerce kez milli takım forması giymiş olup, kariyerini Göztepe'de <u>noktalamıştır</u>.
+  			Sabri Sarıoğlu, altyapısından çıktığı Galatasaray Spor Kulübüne yaklaşık 20 yıl hizmet etmiştir. Bu sürede yüzlerce kez milli takım forması giymiş olup, kariyerini Göztepe'de noktalamıştır.
+  		</p>
+  		<!-- tablo oluşturmak için kullanıyoruz -->
+  		<table border="1">
+  			<thead>
+				<th>İsim</th>
+				<th>Maç Sayısı</th>
+				<th>Attığı Gol</th>
+			</thead>
+  			<tbody>
+  				<tr>
+  					<td>Galatasaray</td>
+  					<td>120</td>
+  					<td>23</td>
+  				</tr>
+  				<tr>
+  					<td>Göztepe</td>
+  					<td>40</td>
+  					<td>2</td>
+  				</tr>
+  				<tr>
+  					<td>A Milli Takım</td>
+  					<td>60</td>
+  					<td>5</td>
+  				</tr>
+  			</tbody>
+  		</table>
+  		<hr>
+  		<form action="/gonder.php">
+  			İsminiz : <input type="text">
+  			<br><br>Mail Adresiniz : 
+  			<input type="text">
+  			<br><br>Mesajınız : 
+  			<input type="text">
+  			<br><br>Cinsiyet : <input type="radio"> Bay  
+  			<input type="radio"> Bayan
+  			<br><br> Gizlilik sözleşmesini okuduysanız onaylayın. 
+  			<input type="checkbox">
+  			<br><br>
+  			<input type="submit" value="Gönder">
+  		</form>
+    </body>	
+</html>
+
+
+
+
+
+
+
+
+
